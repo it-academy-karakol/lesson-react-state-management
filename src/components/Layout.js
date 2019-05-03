@@ -4,7 +4,7 @@ import Toolbar from './Toolbar';
 function Layout(props) {
   return (
     <div>
-      <Toolbar />
+      <Toolbar {...props} />
       <main>{props.children}</main>
     </div>
   );

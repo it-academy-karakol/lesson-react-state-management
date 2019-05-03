@@ -2,7 +2,10 @@ import React from 'react';
 
 function User(props) {
   return (
-    <span>Bakyt</span>
+    <span>
+      <img src={props.user.picture} alt="" />
+      {props.user.name}
+    </span>
   );
 }
 

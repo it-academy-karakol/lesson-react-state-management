@@ -1,8 +1,13 @@
 import React from 'react';
 
 function Hero(props) {
+  const style = {
+    backgroundColor: props.theme.backgroundColor,
+    color: props.theme.textColor
+  };
+
   return (
-    <header>{props.children}</header>
+    <header style={style} >{props.children}</header>
   );
 }
 
