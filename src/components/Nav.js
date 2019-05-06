@@ -5,7 +5,6 @@ function Nav(props) {
   const style = {
     color: props.color
   }
-  console.log(props);
 
   return (
     <ul>

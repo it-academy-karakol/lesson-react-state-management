@@ -5,7 +5,8 @@ import Theme from './Theme';
 const Toolbar = ({ theme, user, changeThemeHandler }) => {
   const style = {
     backgroundColor: theme.backgroundColor,
-    color: theme.textColor
+    color: theme.textColor,
+    transition: 'all .3s ease'
   };
 
   return (

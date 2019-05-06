@@ -3,7 +3,8 @@ import React from 'react';
 function Hero(props) {
   const style = {
     backgroundColor: props.theme.backgroundColor,
-    color: props.theme.textColor
+    color: props.theme.textColor,
+    transition: 'all .3s ease'
   };
 
   return (
